@@ -15,7 +15,8 @@ if [ ! -d $1 ]; then
     exit 1
 fi
 
-if [ ! -f $home/.$configfoldername ] ; then
+# Creates the folder configuration if not exists
+if [ ! -d $home/.$configfoldername ] ; then
     mkdir $home/.$configfoldername
 fi
 
