@@ -1,5 +1,5 @@
 <?php
 
-include_once('Content.php');
+$content = new webfetch\webfetch\Content();
 
 echo 'I am alive!';
